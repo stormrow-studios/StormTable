@@ -1,0 +1,12 @@
+.st-container {
+    height: 100%;
+}
+
+.st-table {
+    height: 100%;
+    flex: 1;
+}
+
+.st-row {
+    outline: 1px solid lightblue;
+}

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgModule } from '@angular/core';
 import { StormtableComponent } from './stormtable.component';
 
@@ -7,7 +8,8 @@ import { StormtableComponent } from './stormtable.component';
         StormtableComponent
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        ScrollingModule
     ],
     providers: [],
     exports: [
