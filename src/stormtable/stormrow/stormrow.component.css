@@ -1,0 +1,14 @@
+.st-row-inner {
+    display: flex;
+    overflow: auto;
+    /* outline: 1px solid lightblue; */
+    border-bottom: 1px solid grey;
+}
+
+.st-cell {
+    border-left: 1px solid grey;
+}
+
+.st-cell:last-child {
+    border-right: 1px solid grey;
+}

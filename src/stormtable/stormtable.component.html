@@ -1,7 +1,8 @@
-<div class='st-container'>
-    <cdk-virtual-scroll-viewport #rowviewport class='st-table'>
-        <div *cdkVirtualFor='let row of source' class='st-row'>
-                {{row.name.value}}
-        </div>
+<div class="st-container">
+    <cdk-virtual-scroll-viewport #rowviewport class="st-table">
+        <stormrow *cdkVirtualFor="let row of source" 
+            [options]="options" 
+            [sourceRow]="row">
+        </stormrow>
     </cdk-virtual-scroll-viewport>
 </div>

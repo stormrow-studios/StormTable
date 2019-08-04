@@ -7,6 +7,6 @@
     flex: 1;
 }
 
-.st-row {
-    outline: 1px solid lightblue;
+.st-row-outer {
+    border-bottom: 1px solid grey;
 }
